@@ -1,0 +1,11 @@
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+Options -Indexes
+
+<FilesMatch "\.(php|htm|html|png|jpg|js|css)$">
+Order allow,deny
+Deny from all
+</FilesMatch>

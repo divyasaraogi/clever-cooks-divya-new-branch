@@ -1,0 +1,5 @@
+@import url("common.css");
+
+[class^="col-"] {
+    width: 100%;
+}
